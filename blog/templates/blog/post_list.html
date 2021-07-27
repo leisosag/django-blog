@@ -4,7 +4,7 @@
     {% for post in posts %}
     <div class="mb-5 card p-3">
         <p class="date">published: {{ post.published_date }}</p>
-        <h2 class="font-weight-bold"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+        <h2 class="font-weight-bold"><a href="{% url 'blog:post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
     {% endfor %}
