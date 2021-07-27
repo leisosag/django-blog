@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito&display=swap');
+
+body {
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a {
+    color: red;
+}
+
+.card {
+    background-color: white;
+}
+
+.date {
+    color: gray;
+}
